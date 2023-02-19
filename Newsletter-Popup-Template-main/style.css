@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+}
+body {
+    background-image: url('Assets/Background.png');
+}
+
+div {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */ 
+    height: 100vh;
+}
+
+.container {
+    height: 460px;
+    max-width: 1000px;
+    min-width: 370px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.header1 {
+    background-image: url('Assets/Pattern.png');
+    background-repeat: no-repeat;
+    background-color: blue;
+    height: 150px;
+    max-width: 1000px;
+    min-width: 370px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.header1 h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Work Sans';
+}
+
+.container > p {
+    font-family: 'Work Sans';
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -22%;
+}
+
+#email {
+    position: absolute;
+    left: 20px;
+    height: 3em;
+    width: 17em;
+    background-color: rgba(182, 182, 182, 0.356);
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 0%;
+    z-index: 1;
+}
+
+#email::placeholder {
+    padding-left: 10px;
+}
+
+#butao {
+    position: absolute;
+    right: 20px;
+    height: 3em;
+    width: 7em;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 0%;
+    z-index: 1;
+}
+
+#nospam {
+    color: rgba(128, 128, 128, 0.426);
+    position: absolute;
+    margin-bottom: -53%;
+    left: 20px;
+}
+
+picture {
+    position: absolute;
+    margin-right: 33%;
+    margin-bottom: -68%;
+}
+
+#name {
+    font-family: 'Work Sans';
+    font-weight: 900;
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    margin-bottom: -61%;
+    margin-left: 8%;
+}
+
+#newsletterdesing {
+    font-family: 'Work Sans';
+    font-size: 12.2px;
+    font-weight: 600;
+    color: gray;
+    position: absolute;
+    margin-bottom: -70%;
+    margin-left: 13%;
+}
+
+#destaque {
+    font-family: 'Work Sans';
+    font-size: 12px;
+    font-weight: 200;
+    position: absolute;
+    text-align: center;
+    color: rgb(104, 101, 101);
+    margin-bottom: -100%;
+    margin-left: 1%; 
+    padding: 20px;
+}
