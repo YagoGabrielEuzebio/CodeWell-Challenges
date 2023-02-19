@@ -5,6 +5,7 @@
 }
 body {
     background-image: url('Assets/Background.png');
+    background-repeat: no-repeat;
 }
 
 div {
